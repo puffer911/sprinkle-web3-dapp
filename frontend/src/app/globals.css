@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --sprinkle-pink: #FF6B9E;
+  --sprinkle-teal: #4ECDC4;
+  --sprinkle-yellow: #FFD93D;
+  --sprinkle-purple: #8A4FFF;
+  --sprinkle-green: #2ECC71;
+
+  --primary-color: var(--sprinkle-pink);
+  --secondary-color: var(--sprinkle-teal);
+  --background-color: #F7FFF7;
+  --text-color: #2C3E50;
+  --accent-color: var(--sprinkle-yellow);
+}
+
+body {
+  color: var(--text-color);
+  font-family: 'Quicksand', sans-serif;
+  background: linear-gradient(135deg,
+    rgba(255, 107, 158, 0.2) 0%,
+    rgba(78, 205, 196, 0.2) 50%,
+    rgba(255, 221, 61, 0.2) 100%);
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.05;
+  background-image:
+    radial-gradient(var(--sprinkle-pink) 8%, transparent 8%),
+    radial-gradient(var(--sprinkle-teal) 8%, transparent 8%);
+  background-position: 0 0, 50px 50px;
+  background-size: 100px 100px;
+  z-index: -1;
+}

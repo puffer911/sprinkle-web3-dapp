@@ -1,0 +1,11 @@
+[package]
+name = "Sprinkle"
+version = "0.0.1"
+
+[addresses]
+# We leave this unassigned here, so the command line can provide the address.
+stream_tips_addr = "_"
+
+[dependencies]
+# We need the Aptos framework for basic functionalities like accounts and coins.
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "devnet" }

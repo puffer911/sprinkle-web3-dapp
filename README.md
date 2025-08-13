@@ -41,6 +41,19 @@ Sprinkle is a decentralized creator tipping platform built on the Aptos blockcha
 - Language: Move
 - Blockchain: Aptos Devnet
 - Module: `tip_jar`
+- Devnet Contract Address: `0x251887537f7133a56a4745f38b12f4e9342a8fbacc84a2eddcc4854c54df1e32`
+- Contract Explorer: [View on Aptos Explorer](https://explorer.aptoslabs.com/account/0x251887537f7133a56a4745f38b12f4e9342a8fbacc84a2eddcc4854c54df1e32/modules/packages/Sprinkle?network=devnet)
+
+### Key Contract Features
+- Creator link registration
+- Tip jar initialization
+- Unique link validation
+- Secure tip tracking
+
+### Contract Details
+- Language: Move
+- Blockchain: Aptos Devnet
+- Module: `tip_jar`
 
 ### Key Contract Features
 - Creator link registration

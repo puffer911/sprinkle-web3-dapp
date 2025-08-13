@@ -1,3 +1,5 @@
+<img src="logo.svg" alt="Sprinkle Logo" width="80" />
+
 # Sprinkle: Creator Tipping Platform on Aptos
 
 ## 🌱 Project Overview

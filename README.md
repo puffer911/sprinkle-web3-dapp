@@ -95,10 +95,13 @@ aptos move publish --named-addresses stream_tips_addr=<YOUR_ADDRESS>
 - Wallet-based authentication
 
 ## 🔮 Future Roadmap
-- Multi-chain support
-- Advanced creator analytics
-- Tip streaming
-- Social media integration
+- Creator link preview and customization
+- Stablecoin support (USDC, USDT)
+- Enhanced creator page with comprehensive content display and social media integration
+- Pay-per-view content monetization
+- Pay-per-content access controls
+- Multi-tier content access pricing
+- Advanced content monetization strategies
 
 ## 🤝 Contributing
 
